@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
  */
 @RequestMapping(path = "/rea")
 public class REAController {
-        
+
     @RequestMapping(method = RequestMethod.POST, consumes = "text/html")
     public ResponseEntity post(String content) {
         System.out.println(content);
