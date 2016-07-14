@@ -3,8 +3,8 @@
 ###Encyption/Decryption with key pair
 
 This was an actual requirement for some integration work that was required for a third-party to post data in json
-format. The payload was to be encrypted by the source using a public key provided by the destination. The destination
-would use the private key that it created to decrypt the payload and then process it.
+format to a destination to be processed. The payload was to be encrypted by the source using a public key provided by
+the destination, which would then use the private key that it created to decrypt the payload and then process it.
 
 Information about security in Java can be found here [Java Security Tutorial](https://docs.oracle.com/javase/tutorial/security/index.html)
 I don't find the tutorial the be the best source, the use case demonstrated seems very narrow in my opinion.
